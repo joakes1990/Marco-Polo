@@ -14,6 +14,9 @@
 		D05C523C1FE8A8C800867528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05C523B1FE8A8C800867528 /* Assets.xcassets */; };
 		D05C523F1FE8A8C800867528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05C523D1FE8A8C800867528 /* LaunchScreen.storyboard */; };
 		D05C524A1FE8A8C800867528 /* Marco_PoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C52491FE8A8C800867528 /* Marco_PoloTests.swift */; };
+		D05C52561FE8AF9E00867528 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C52551FE8AF9E00867528 /* ItemCell.swift */; };
+		D05C52581FE8B4E000867528 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C52571FE8B4E000867528 /* SettingsViewController.swift */; };
+		D05C525A1FE9EB7000867528 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C52591FE9EB7000867528 /* PickerTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		D05C52451FE8A8C800867528 /* Marco PoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marco PoloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05C52491FE8A8C800867528 /* Marco_PoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marco_PoloTests.swift; sourceTree = "<group>"; };
 		D05C524B1FE8A8C800867528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05C52551FE8AF9E00867528 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		D05C52571FE8B4E000867528 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D05C52591FE9EB7000867528 /* PickerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,8 @@
 		D05C52301FE8A8C800867528 /* Marco Polo */ = {
 			isa = PBXGroup;
 			children = (
+				D05C52541FE8AF7700867528 /* Views */,
 				D05C52311FE8A8C800867528 /* AppDelegate.swift */,
-				D05C52331FE8A8C800867528 /* ViewController.swift */,
 				D05C52351FE8A8C800867528 /* Main.storyboard */,
 				D05C523B1FE8A8C800867528 /* Assets.xcassets */,
 				D05C523D1FE8A8C800867528 /* LaunchScreen.storyboard */,
@@ -97,6 +103,17 @@
 				D05C524B1FE8A8C800867528 /* Info.plist */,
 			);
 			path = "Marco PoloTests";
+			sourceTree = "<group>";
+		};
+		D05C52541FE8AF7700867528 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D05C52331FE8A8C800867528 /* ViewController.swift */,
+				D05C52551FE8AF9E00867528 /* ItemCell.swift */,
+				D05C52571FE8B4E000867528 /* SettingsViewController.swift */,
+				D05C52591FE9EB7000867528 /* PickerTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05C52561FE8AF9E00867528 /* ItemCell.swift in Sources */,
 				D05C523A1FE8A8C800867528 /* Marco_Polo.xcdatamodeld in Sources */,
 				D05C52341FE8A8C800867528 /* ViewController.swift in Sources */,
+				D05C52581FE8B4E000867528 /* SettingsViewController.swift in Sources */,
 				D05C52321FE8A8C800867528 /* AppDelegate.swift in Sources */,
+				D05C525A1FE9EB7000867528 /* PickerTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
