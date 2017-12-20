@@ -17,12 +17,14 @@ class PickerTextField: UITextField {
     override init(frame: CGRect) {
         super.init(frame: frame)
         inputView = picker
+        inputView?.autoresizingMask = .flexibleHeight
         inputAccessoryView = createToolBsr()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         inputView = picker
+        inputView?.autoresizingMask = .flexibleHeight
         inputAccessoryView = createToolBsr()
     }
     
