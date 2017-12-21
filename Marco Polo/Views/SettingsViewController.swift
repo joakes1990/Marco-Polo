@@ -39,6 +39,7 @@ class SettingsViewController: UIViewController {
             themePickerTextfield.text = NSLocalizedString("Rose Gold", comment: "Rose Gold")
             break
         }
+        UserDefaults.standard.synchronize()
     }
 
     override func didReceiveMemoryWarning() {
